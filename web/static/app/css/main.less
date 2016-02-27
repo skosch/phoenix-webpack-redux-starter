@@ -1,0 +1,121 @@
+
+
+.typeicon {
+  padding: 0.2em 0.5em;
+  font-weight: 600;
+  border-radius: 2em;
+  text-transform: uppercase;
+  color: white !important;
+  margin: 0.2em;
+
+  &.s {
+    background: #264480;
+  }
+  &.v {
+    background: #FFaa00;
+  }
+  &.j {
+    background: #77b6fd;
+  }
+  &.sum:not(:last-child){
+    margin-right: 2em;
+  }
+}
+
+td {
+  line-height: 3em !important;
+  font-size: 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  font-size: 18px;
+  text-align: left;
+  padding-bottom: 0.6em;
+  border-bottom: 1px solid #ddd;
+}
+
+tr.signedin {
+  background: #F0F5FB;
+}
+
+.td-timebox {
+  width: 10em;
+  text-align: center;
+  .timeBox {
+    width: 6em;
+    display: inline-block;
+    text-align: center;
+  }
+  button.btn-timebox, {
+    border-radius: 3px;
+    padding: 2px 5px;
+    margin: -5px 0 -5px 0;
+
+    &.btn-sign-gray {
+      margin: -5px 0 0 -3px;
+      border-radius: 0 4px 4px 0;
+      background: #ededed !important;
+    }
+
+
+  }
+  button.btn-timebox:not(.btn-sign-gray) {
+    padding: 2px 1em;
+  }
+}
+
+
+.td-type {
+  width: 3em;
+}
+
+.td-total {
+  width: 7em;
+  text-align: right;
+}
+
+
+.td-dropdown {
+  width: 3em;
+  text-align: center;
+
+  button {
+    padding: 0.2em;
+    border-radius: 2em;
+  }
+}
+
+.action-icons {
+  font-size: 1.5em;
+  margin-bottom: 3em;
+}
+
+.datepicker{
+  font-family: Lato !important;
+}
+
+.datepicker__day--selected, .datepicker__day--in-range {
+  background-color: #118441 !important;
+}
+
+.td-dropdown .ui.dropdown .menu {
+  right: 0;
+  left: auto;
+   .active.item{
+     font-weight: normal !important;
+  }
+}
+
+div.time-picker {
+  input {
+    max-width: 7em;
+    text-align: right;
+    padding: 0.678614em 1em;
+    border: 1px solid rgba(34, 36, 38, 0.15);
+    border-radius: 4px;
+  }
+  .ticks {
+    display: none;
+  }
+}

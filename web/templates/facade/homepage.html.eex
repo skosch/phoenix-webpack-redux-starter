@@ -1,0 +1,11 @@
+<div class="jumbotron">
+  Welcome to the homepage!
+</div>
+<div>
+Here is the login:
+<form action="/auth/identity/callback" method="POST">
+  Username: <input name="username" id="txtUsername" /><br />
+  Password: <input name="password" id="txtPassword" />
+  <button type="submit">Log in</button>
+</form>
+</div>
